@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Integrity</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <!-- <script src="https://cdn.ethers.io/lib/ethers-5.5.4.min.js"></script> <!-->
+        <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+        
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="header">Systeme of data file Integrity</h1>
+    
+    <div class="container">
+        <div>
+            <input type="file" id="fileInput" />
+            <button id="uploadAndExtract">Upload and Extract</button>
+            <pre id="contentDisplay"></pre>
+        </div>
+        <h1>Verify Data Integrity</h1>
+       
+        <button id="deployButton">Upload the hash</button>        
+        <button id="verifyButton">Check data file integrity</button>
+        
+        <hr>
+        
+
+        <div id="result"></div>
+        <hr>
+        <div id="updatedFiles">
+            <h1>Updated Files</h1>
+            <table id="fileList" border="1">
+              <tr>
+                <th>ID</th>
+                <th>URL</th>
+                <th>Uploader</th>
+                <th>date</th>
+                <th>hour</th>
+              </tr>
+            </table>
+          </div>
+    </div>
+    
+
+    <script type="module" src="./index.js"> </script>
+</body>
+
+</html>

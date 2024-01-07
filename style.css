@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfc9c9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.contentDisplay{
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 599px;
+
+}
+
+button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+pre{
+    background-color: rgb(203, 197, 197);
+    color: black;
+    border: solid 1px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 800px;
+    text-align: center;
+    
+    
+}
+#result{
+    background-color: #FFFFFF;
+    color: #02023d;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px ;
+}
+h1{
+    text-align: center;
+}
+.header {
+    font-size: 45px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #02023d, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+#fileInput {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #fileInput:disabled {
+    pointer-events: none;
+  }
+  
+  #fileInput:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #fileInput:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  #fileList {
+    border: 1px solid #ddd; /* Set table border color */
+    border-collapse: collapse; /* Remove space between table borders */
+    width: 100%; /* Make table responsive */
+    margin: 0 auto; /* Center table horizontally */
+  }
+  
+  th {
+    padding: 10px; /* Add padding to table headers */
+    text-align: left; /* Align header text left */
+    background-color: #eee; /* Set background color for headers */
+    font-weight: bold; /* Make header text bold */
+    border-bottom: 1px solid #ddd; /* Add bottom border to headers */
+  }
+  
+  td {
+    padding: 5px; /* Add padding to table cells */
+    border-bottom: 1px solid #ddd; /* Add bottom border to cells */
+  }
+  
+  /* Optional styles for specific columns */
+  
+  #fileList tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Add a light gray background to odd rows */
+  }
+  
+  #fileList .uploader {
+    text-align: center; /* Center text in the "Uploader" column */
+  }
+  
+  #fileList .date, #fileList .hour {
+    width: 100px; /* Set fixed width for "date" and "hour" columns */
+  }
